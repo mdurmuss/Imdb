@@ -1,2 +1,1 @@
-# IMDB 
-Imdb [**beautiful soup**](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) kullanımıve [**Pyqt5**](https://pypi.org/project/PyQt5/) ile arayüzü.
+Imdb verilerini alma ve Pyqt5 ile arayüzü oluşturma.
