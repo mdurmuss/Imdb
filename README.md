@@ -1,1 +1,1 @@
-Imdb verilerini alma ve Pyqt5 ile arayüzü oluşturma.
+**Basic usage of Beautifulsoup and Qt library with Imbd data.**
