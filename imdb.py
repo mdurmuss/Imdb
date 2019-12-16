@@ -138,15 +138,15 @@ class Pencere(QWidget,Film):
 
         elif sender.text() == "+": 
             if self.ratio != 10.0:
-             self.ratio += 0.5
+             self.ratio += 0.1
 
         elif sender.text() == "-":
             if self.ratio != 8.0: 
-                self.ratio -= 0.5
+                self.ratio -= 0.1
         elif sender.text() == "STORY": 
             self.show_topic() 
 
-        self.line.setText(str(self.ratio))
+        self.line.setText(str(round(self.ratio,2)))
 
     def show_topic(self,):
         url = CopyUrl(self.story.text())
